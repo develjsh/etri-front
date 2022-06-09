@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+
+@font-face { 
+    font-family:'NSEBold';
+    font-style:normal;
+    src:url('../font/NanumSquareEB.ttf') format('truetype');
+}
+
+@font-face { 
+    font-family:'NSBold';
+    font-style:normal;
+    src:url('../font/NanumSquareB.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'NBG';
+    font-style:normal;
+    font-weight:400;    
+    src:url('../font/NanumSquareR.ttf') format('truetype');
+}
+@font-face {
+    font-family:'NSLight';
+    font-style:normal; 
+    font-weight:300;
+    src:url('../font/NanumSquareL.ttf') format('truetype');
+}
+
+
+html, body {margin:0; padding:0;}
+body {height:100%; font-size:16px; background-color:#ffffff;  letter-spacing:-0.2px; font-style: normal;}
+div, ol, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, fieldset, p, a, iframe, span, img, input, table, th, td {margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6 {font-size:15px;}
+ol, ul {list-style:none;}
+fieldset {border:none;}
+legend {display:none;}
+img {max-width:100%; border:0;vertical-align:middle;}
+table, th, td {border-collapse:collapse;}
+input, select, textarea, input.button, input.check, input.radio {margin:0; padding:0;vertical-align:middle;font-size:14px;font-family:'NS', sans-serif;line-height:20px;}
+caption {visibility:hidden; overflow:hidden; width:1px; font-size:0; line-height:0}
+select {height:18px;}
+input.check {vertical-align:middle;}
+input.radio {vertical-align:middle;}
+input.file {}
+input.button {cursor:pointer;}
+input.btn-normal {cursor:pointer;}
+input:focus, select:focus {outline: none;}
+area {outline: none;}
+input:-webkit-autofill {-webkit-box-shadow: 0 0 0 1000px white inset;}
+input {-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0; outline: 0; border: 0;}
+input[type=submit] {-webkit-appearance:none;} 
+button {border: 0; border-radius: 0; background-color: transparent; outline: 0; cursor: pointer;}
+
+a:link,  a:visited {text-decoration:none;}
+a:hover,  a:active {ext-decoration:none;}
+
+.blind {position:absolute; top:0; left:-10000px;font-size:0;line-height:0;}
+.skip a:hover,.skip a:active,.skip a:focus {top:0;}
+.clearfix {*zoom: 1;}
+.clearfix:after {content: ''; display: block; clear: both;}
+.fl{float: left;}
+.fr{float: right}
+.flex{display: flex;}
+.flex .box50{
+    width: 50%;
+}
+.op35 {opacity: 0.35 !important;}
